@@ -207,9 +207,6 @@ public class CMDatabaseHelper extends SQLiteOpenHelper{
         loadStringSetting(db, CMTableNames.TABLE_SECURE, CMSettings.Secure.QS_TILES,
                 R.string.def_qs_tiles);
 
-        loadBooleanSetting(db, CMTableNames.TABLE_SECURE, CMSettings.Secure.STATS_COLLECTION,
-                R.bool.def_stats_collection);
-
         // Global
         if (mUserHandle == UserHandle.USER_OWNER) {
             loadSettingsForTable(db, CMTableNames.TABLE_GLOBAL, CMSettings.Global.DEVICE_NAME,

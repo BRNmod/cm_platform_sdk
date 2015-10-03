@@ -1011,12 +1011,6 @@ public final class CMSettings {
         public static final String QS_USE_MAIN_TILES = "sysui_qs_main_tiles";
 
         /**
-         * Global stats collection
-         * @hide
-         */
-        public static final String STATS_COLLECTION = "stats_collection";
-
-        /**
          * Boolean value whether to link ringtone and notification volume
          *
          * @hide

@@ -195,8 +195,6 @@ public class CMSettingsProvider extends ContentProvider {
                     CMSettings.Secure.KEYBOARD_BRIGHTNESS);
             secureToCmSettingsMap.put(Settings.Secure.POWER_MENU_ACTIONS,
                     CMSettings.Secure.POWER_MENU_ACTIONS);
-            secureToCmSettingsMap.put(Settings.Secure.STATS_COLLECTION,
-                    CMSettings.Secure.STATS_COLLECTION);
             secureToCmSettingsMap.put(Settings.Secure.QS_SHOW_BRIGHTNESS_SLIDER,
                     CMSettings.Secure.QS_SHOW_BRIGHTNESS_SLIDER);
             secureToCmSettingsMap.put(Settings.Secure.QS_TILES,
